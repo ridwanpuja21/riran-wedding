@@ -5,7 +5,7 @@ function initAOS() {
 
   AOS.init({
     duration: 1000,
-    once: true,
+    once: false,
     // PERUBAHAN DI SINI: menggunakan "#main-content", BUKAN "main"
     scrollContainer: isDesktop ? "#main-content" : null,
   });
